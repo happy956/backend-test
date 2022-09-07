@@ -17,6 +17,7 @@ jobs:
       with:
         node-version: 16.x
         cache: 'npm'
+    - run: npm install ip
     - run: npm install express
     - run: npm install cors
     - run: node app.js
