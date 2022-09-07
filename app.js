@@ -8,7 +8,6 @@ app.use(cors());
 app.get('/', (req, res) => {
     return 'hello'
 })
-
 app.listen(port, () => {
     console.log(`Example app listening on port ${port}`)
 });
